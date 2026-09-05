@@ -1,10 +1,10 @@
 # Resume Analyzer
 
 Live Demo:
-https://your-frontend-url.onrender.com
+https://resume-analyzer-ui-rg64.onrender.com
 
 Backend API:
-https://your-backend-url.onrender.com
+https://resume-analyzer-qog1.onrender.com/docs
 
 ---
 
