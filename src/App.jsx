@@ -1,4 +1,4 @@
-import { useState } from "react";
+import {useState} from "react";
 import "./App.css";
 
 function App() {
@@ -10,21 +10,21 @@ function App() {
 
             <div className="input-section">
                 <label>Upload Resume</label>
-                <input type="file" accept=".pdf" />
+                <input type="file" accept=".pdf"/>
             </div>
 
             <div className="input-section">
                 <label>Job Description</label>
 
                 <textarea
-                    rows="10"
+                    rows="14"
                     placeholder="Paste job description here..."
                     value={jobDescription}
                     onChange={(e) => setJobDescription(e.target.value)}
                 />
             </div>
 
-            <button>Analyze</button>
+            <button>Analyze Resume</button>
         </div>
     );
 }
