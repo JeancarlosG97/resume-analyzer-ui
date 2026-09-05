@@ -1,16 +1,110 @@
-# React + Vite
+# Resume Analyzer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Live Demo:
+https://your-frontend-url.onrender.com
 
-Currently, two official plugins are available:
+Backend API:
+https://your-backend-url.onrender.com
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## Overview
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Resume Analyzer is a full-stack web application that compares a resume against a job description and generates a match score based on identified skills.
 
-## Expanding the ESLint configuration
+The application extracts skills from uploaded PDF resumes, analyzes job requirements, and highlights both matched and missing skills to help users identify potential gaps.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## Features
+
+- Upload PDF resumes
+- Paste job descriptions
+- Automatic skill extraction
+- Match score calculation
+- Matched skills breakdown
+- Missing skills breakdown
+- Responsive web interface
+- Deployed frontend and backend
+
+---
+
+## Tech Stack
+
+### Frontend
+
+- React
+- Vite
+- Axios
+- CSS
+
+### Backend
+
+- Python
+- FastAPI
+- PyPDF
+- Regex
+
+### Deployment
+
+- Render
+
+---
+
+## Screenshots
+
+### Home Page
+
+[Insert Screenshot]
+
+### Results Page
+
+[Insert Screenshot]
+
+---
+
+## How It Works
+
+1. User uploads a PDF resume.
+2. User pastes a job description.
+3. Resume text is extracted from the PDF.
+4. Skills are identified using a predefined skills database.
+5. Resume skills are compared against job requirements.
+6. A match score is calculated.
+7. Results are displayed in the UI.
+
+---
+
+## Project Structure
+
+Backend
+
+resume-analyzer/
+├── app.py
+├── main.py
+├── skills.json
+└── requirements.txt
+
+Frontend
+
+resume-analyzer-ui/
+├── src
+├── public
+├── package.json
+└── vite.config.js
+
+---
+
+## Future Improvements
+
+- DOCX support
+- Enhanced skill database
+- Skill categories
+- ATS-style scoring
+- Resume recommendations
+
+---
+
+## Author
+
+Jeancarlos Guerrero
