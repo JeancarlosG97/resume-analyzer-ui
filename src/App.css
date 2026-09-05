@@ -1,22 +1,24 @@
 .container {
-  max-width: 800px;
+  max-width: 1000px;
   margin: 50px auto;
   padding: 20px;
 }
 
 h1 {
   text-align: center;
-  margin-bottom: 30px;
+  margin-bottom: 40px;
+  font-size: 3rem;
 }
 
 .input-section {
-  margin-bottom: 20px;
+  margin-bottom: 25px;
 }
 
 label {
   display: block;
   font-weight: bold;
-  margin-bottom: 8px;
+  margin-bottom: 10px;
+  font-size: 1.2rem;
 }
 
 input,
@@ -26,9 +28,24 @@ textarea {
 
 textarea {
   resize: vertical;
+  padding: 12px;
+  font-size: 1rem;
 }
 
 button {
-  padding: 10px 20px;
+  display: block;
+  margin: 25px auto;
+  padding: 12px 32px;
+  font-size: 1rem;
   cursor: pointer;
+}
+
+.results-section {
+  margin-top: 50px;
+  border-top: 1px solid #444;
+  padding-top: 30px;
+}
+
+.results-section h2 {
+  text-align: center;
 }
