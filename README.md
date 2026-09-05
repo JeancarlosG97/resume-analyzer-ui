@@ -51,18 +51,6 @@ The application extracts skills from uploaded PDF resumes, analyzes job requirem
 
 ---
 
-## Screenshots
-
-### Home Page
-
-[Insert Screenshot]
-
-### Results Page
-
-[Insert Screenshot]
-
----
-
 ## How It Works
 
 1. User uploads a PDF resume.
