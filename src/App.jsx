@@ -24,6 +24,17 @@ function App() {
             console.error(error);
         }
     };
+    const handleAnalyzeDemo = async () => {
+        try {
+            const response = await axios.post(
+                `${API_URL}/analyze-demo`
+            );
+
+            setResults(response.data);
+        } catch (error) {
+            console.error(error);
+        }
+    };
 
     return (
         <div className="container">
@@ -51,6 +62,10 @@ function App() {
 
             <button onClick={analyzeResume}>
                 Analyze Resume
+            </button>
+
+            <button onClick={handleAnalyzeDemo} >
+                Analyze Demo
             </button>
 
             {analysis && (
