@@ -44,8 +44,8 @@ function App() {
                 <ol>
                     <li>Upload your resume (PDF).</li>
                     <li>Paste a job description.</li>
-                    <li>Click Analyze Resume to view your match score and skill gaps.</li>
-                    <li>Or click Demo to see a sample analysis instantly.</li>
+                    <li>Click Analyze Resume.</li>
+                    <li>Or click Demo to see a sample analysis.</li>
                 </ol>
             </div>
 
