@@ -27,10 +27,10 @@ function App() {
     const handleAnalyzeDemo = async () => {
         try {
             const response = await axios.post(
-                `${API_URL}/analyze-demo`
+                "https://resume-analyzer-qog1.onrender.com/analyze-demo"
             );
 
-            setResults(response.data);
+            setAnalysis(response.data);
         } catch (error) {
             console.error(error);
         }
