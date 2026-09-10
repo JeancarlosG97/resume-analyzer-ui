@@ -39,15 +39,9 @@ function App() {
     return (
         <div className="container">
             <h1>Resume Analyzer</h1>
-            <div className="instructions">
-                <p><strong>How It Works</strong></p>
-                <ol>
-                    <li>Upload your resume (PDF).</li>
-                    <li>Paste a job description.</li>
-                    <li>Click Analyze Resume.</li>
-                    <li>Or click Demo to see a sample analysis.</li>
-                </ol>
-            </div>
+            <p className="instructions">
+                Upload a PDF resume and paste a job description, or click <strong> Demo </strong> to see a sample.
+            </p>
 
             <div className="input-section">
                 <label>Upload Resume</label>

@@ -128,11 +128,7 @@ button:hover {
 }
 
 .instructions {
-    background-color: #2a2a2a;
-    color: white;
-    padding: 15px;
-    border-radius: 8px;
+    font-size: 0.95rem;
+    color: #bdbdbd;
     margin-bottom: 20px;
-    text-align: left;
-    border: 1px solid #3a3a3a;
 }
