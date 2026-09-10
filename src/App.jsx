@@ -39,6 +39,15 @@ function App() {
     return (
         <div className="container">
             <h1>Resume Analyzer</h1>
+            <div className="instructions">
+                <p><strong>How It Works</strong></p>
+                <ol>
+                    <li>Upload your resume (PDF).</li>
+                    <li>Paste a job description.</li>
+                    <li>Click Analyze Resume to view your match score and skill gaps.</li>
+                    <li>Or click Demo to see a sample analysis instantly.</li>
+                </ol>
+            </div>
 
             <div className="input-section">
                 <label>Upload Resume</label>
@@ -65,7 +74,7 @@ function App() {
             </button>
 
             <button onClick={handleAnalyzeDemo} >
-                Analyze Demo
+                Demo
             </button>
 
             {analysis && (

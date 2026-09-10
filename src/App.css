@@ -126,3 +126,20 @@ button:hover {
     margin-bottom: 20px;
     text-align: center;
 }
+
+.instructions {
+    background-color: #f8f9fa;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.instructions p {
+    margin-top: 0;
+    font-weight: bold;
+}
+
+.instructions ol {
+    margin: 10px 0 0 20px;
+}
